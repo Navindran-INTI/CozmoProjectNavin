@@ -1,0 +1,431 @@
+labuser@administrator-XPS-13-9340:~/Desktop/7040/Cozmo$ python3 SR1_5.py
+/usr/local/lib/python3.8/dist-packages/cozmo/event.py:488: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  return await asyncio.wait_for(f, timeout, loop=self._loop)
+2024-12-15 18:47:32,868 cozmo.general INFO     App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+2024-12-15 18:47:32,868 cozmo.general INFO     Found robot id=1
+/usr/local/lib/python3.8/dist-packages/cozmo/event.py:488: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  return await asyncio.wait_for(f, timeout, loop=self._loop)
+2024-12-15 18:47:32,878 cozmo.general INFO     Connected to Android device serial=GCC1WE0422620WMN
+2024-12-15 18:47:32,991 cozmo.general INFO     Robot id=1 serial=0241bfb2 initialized OK
+Cozmo's current pose: x=0.00, y=0.00, rotation=-0.08°
+2024-12-15 18:47:34,095 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType01 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType01 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:34,184 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType02 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType02 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:34,265 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType03 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType03 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:34,334 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType04 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType04 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:34,453 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType05 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType05 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:34,514 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType06 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType06 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:34,577 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType07 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType07 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:34,696 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType08 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType08 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:34,804 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType09 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType09 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:34,874 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType10 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType10 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+/usr/local/lib/python3.8/dist-packages/cozmo/annotate.py:181: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  if isinstance(text, collections.Iterable):
+2024-12-15 18:47:34,977 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType11 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType11 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:35,057 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType12 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType12 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Cozmo's current pose: x=0.00, y=0.00, rotation=-0.30°
+2024-12-15 18:47:35,186 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType13 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType13 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:35,263 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType14 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType14 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:35,358 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType15 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType15 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+2024-12-15 18:47:35,459 cozmo.general INFO     Defined: <CustomObject object_type=CustomObjectTypes.CustomType16 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Defined wall: <CustomObject object_type=CustomObjectTypes.CustomType16 x_size_mm=10.0 y_size_mm=200.0 z_size_mm=60.0 is_unique=True is_visible=False>
+Starting a 360-degree search...
+Cozmo's current pose: x=-4.86, y=11.96, rotation=39.27°
+Cozmo's current pose: x=-15.46, y=19.12, rotation=78.42°
+Cozmo's current pose: x=-25.13, y=18.32, rotation=108.68°
+Cozmo's current pose: x=-33.56, y=12.04, rotation=140.94°
+Cozmo's current pose: x=-36.62, y=-3.13, rotation=-171.29°
+Cozmo's current pose: x=-26.60, y=-16.39, rotation=-119.79°
+Cozmo's current pose: x=-14.46, y=-18.02, rotation=-82.02°
+Cozmo's current pose: x=-2.67, y=-11.93, rotation=-41.44°
+Cozmo's current pose: x=0.96, y=-4.14, rotation=-14.53°
+Target object (cube): id=2, x=-35.69, y=-290.03
+Picking up the cube...
+2024-12-15 18:47:53,789 cozmo.general INFO     Sending pickup object request for object=<LightCube object_id=2 battery=Unknown pose=<Pose <Position x: -35.69 y: -290.03 z: 12.72> <Quaternion q0: 1.00 q1: 0.00 q2: 0.00 q3: 0.00 (angle_z: <Angle 0.01 radians (0.36 degrees)>)> origin_id=53> is_visible=False>
+Cozmo's current pose: x=-9.72, y=-17.42, rotation=-64.48°
+Cozmo's current pose: x=-43.66, y=-103.94, rotation=-94.58°
+Cozmo's current pose: x=-41.83, y=-130.56, rotation=-87.67°
+Cozmo's current pose: x=-41.83, y=-130.56, rotation=-87.62°
+Cozmo's current pose: x=-29.25, y=-209.12, rotation=-92.94°
+Cozmo's current pose: x=-27.13, y=-261.50, rotation=-73.92°
+Cozmo's current pose: x=-25.37, y=-318.44, rotation=-92.19°
+Cozmo's current pose: x=-24.06, y=-267.49, rotation=-91.00°
+Returning to the starting position to deposit the cube...
+Retracing path: [(0.0, 0.0, -0.3048040408493614)]
+Cozmo's current pose: x=-24.98, y=-266.89, rotation=83.72°
+Cozmo's current pose: x=-20.46, y=-226.68, rotation=83.66°
+Cozmo's current pose: x=-17.95, y=-204.41, rotation=83.34°
+Cozmo's current pose: x=-13.44, y=-166.47, rotation=83.37°
+Cozmo's current pose: x=-13.36, y=-164.51, rotation=86.99°
+Cozmo's current pose: x=-10.45, y=-116.21, rotation=86.47°
+Cozmo's current pose: x=-9.64, y=-103.30, rotation=86.48°
+Cozmo's current pose: x=-7.27, y=-65.74, rotation=86.17°
+Precisely reached target at x=0.00, y=0.00
+Retraced to x=0.00, y=0.00, rotation=-0.30
+Back at approximate starting position. Fine-tuning to exact (0, 0).
+Precisely reached target at x=0.00, y=0.00
+Precisely at starting position.
+Depositing the cube...
+2024-12-15 18:48:25,308 cozmo.general INFO     Sending place down here request for object=<LightCube object_id=2 battery=Unknown pose=<Pose <Position x: -28.43 y: -322.04 z: 19.48> <Quaternion q0: 0.99 q1: -0.00 q2: -0.00 q3: -0.16 (angle_z: <Angle -0.32 radians (-18.09 degrees)>)> origin_id=53> is_visible=False>
+Cozmo's current pose: x=-8.88, y=-92.27, rotation=86.78°
+Cube deposited.
+Cube picked up and deposited. Total completed: 1/3
+Target reached. Restarting search.
+Starting a 360-degree search...
+Cozmo's current pose: x=-8.88, y=-92.34, rotation=86.89°
+Cozmo's current pose: x=-21.47, y=-95.46, rotation=126.80°
+Cozmo's current pose: x=-28.41, y=-106.40, rotation=167.56°
+Cozmo's current pose: x=-25.87, y=-119.35, rotation=-152.00°
+Cozmo's current pose: x=-15.76, y=-127.65, rotation=-111.17°
+Cozmo's current pose: x=-3.08, y=-126.65, rotation=-71.34°
+Cozmo's current pose: x=6.78, y=-117.78, rotation=-30.46°
+Cozmo's current pose: x=9.11, y=-105.05, rotation=10.01°
+Cozmo's current pose: x=2.15, y=-93.80, rotation=50.66°
+Cozmo's current pose: x=-10.23, y=-90.07, rotation=90.57°
+Target object (wall): id=5, x=762.78, y=-269.11
+Moving towards object at x=762.78, y=-269.11
+Current position: x=-10.23, y=-90.07
+Distance to target: 793.47 mm
+Angle to target: -103.59°
+Turning -103.59° to face the target...
+Driving forward by 50.00 mm
+Cozmo's current pose: x=8.37, y=-113.98, rotation=-13.33°
+Cozmo's current pose: x=56.42, y=-125.57, rotation=-13.48°
+Current position: x=57.46, y=-125.84
+Distance to target: 719.72 mm
+Angle to target: 2.15°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=66.36, y=-128.01, rotation=-13.63°
+Cozmo's current pose: x=106.53, y=-137.84, rotation=-13.85°
+Current position: x=106.53, y=-137.84
+Distance to target: 669.25 mm
+Angle to target: 2.55°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=134.41, y=-144.87, rotation=-14.15°
+Cozmo's current pose: x=155.64, y=-149.96, rotation=-13.62°
+Current position: x=155.64, y=-149.96
+Distance to target: 618.72 mm
+Angle to target: 2.52°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=198.85, y=-160.87, rotation=-14.53°
+Current position: x=204.61, y=-162.39
+Distance to target: 568.28 mm
+Angle to target: 3.86°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=218.21, y=-165.96, rotation=-14.67°
+Cozmo's current pose: x=253.35, y=-175.18, rotation=-14.68°
+Current position: x=253.35, y=-175.18
+Distance to target: 518.01 mm
+Angle to target: 4.24°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=286.88, y=-184.14, rotation=-15.00°
+Current position: x=302.04, y=-188.21
+Distance to target: 467.79 mm
+Angle to target: 5.13°
+Turning 5.13° to face the target...
+Cozmo's current pose: x=301.19, y=-186.51, rotation=-9.03°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=341.40, y=-193.00, rotation=-8.97°
+Current position: x=351.25, y=-194.55
+Distance to target: 418.23 mm
+Angle to target: -1.17°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=359.29, y=-195.92, rotation=-9.44°
+Cozmo's current pose: x=401.55, y=-203.40, rotation=-9.81°
+Current position: x=401.55, y=-203.40
+Distance to target: 367.15 mm
+Angle to target: -0.49°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=424.68, y=-207.45, rotation=-9.93°
+Current position: x=451.17, y=-212.22
+Distance to target: 316.76 mm
+Angle to target: -0.04°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=451.17, y=-212.22, rotation=-10.31°
+Cozmo's current pose: x=496.48, y=-220.49, rotation=-10.35°
+Current position: x=500.86, y=-221.30
+Distance to target: 266.25 mm
+Angle to target: 0.00°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=509.64, y=-222.88, rotation=-10.21°
+Cozmo's current pose: x=550.35, y=-230.78, rotation=-11.30°
+Current position: x=550.35, y=-230.78
+Distance to target: 215.86 mm
+Angle to target: 1.08°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=577.72, y=-236.29, rotation=-11.28°
+Current position: x=599.93, y=-240.77
+Distance to target: 165.30 mm
+Angle to target: 1.62°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=599.93, y=-240.77, rotation=-11.49°
+Cozmo's current pose: x=647.47, y=-251.07, rotation=-12.10°
+Current position: x=649.63, y=-251.47
+Distance to target: 114.52 mm
+Angle to target: 3.07°
+Driving forward by 14.52 mm
+Cozmo's current pose: x=660.91, y=-253.95, rotation=-12.22°
+Current position: x=663.98, y=-254.61
+Distance to target: 99.86 mm
+Angle to target: 3.89°
+Reached target within safe distance.
+Target reached. Restarting search.
+Starting a 360-degree search...
+Cozmo's current pose: x=663.47, y=-247.86, rotation=8.06°
+Cozmo's current pose: x=657.58, y=-236.57, rotation=48.25°
+Cozmo's current pose: x=645.18, y=-232.92, rotation=88.16°
+Cozmo's current pose: x=633.19, y=-237.26, rotation=128.65°
+Cozmo's current pose: x=627.37, y=-249.06, rotation=169.27°
+Cozmo's current pose: x=628.94, y=-262.02, rotation=-151.03°
+Cozmo's current pose: x=636.70, y=-269.00, rotation=-118.19°
+Cozmo's current pose: x=651.52, y=-269.72, rotation=-70.80°
+Cozmo's current pose: x=661.03, y=-260.55, rotation=-30.28°
+Target object (cube): id=6, x=644.79, y=-391.22
+Picking up the cube...
+2024-12-15 18:49:52,711 cozmo.general INFO     Sending pickup object request for object=<LightCube object_id=6 battery=Unknown pose=<Pose <Position x: 644.79 y: -391.22 z: 15.59> <Quaternion q0: 1.00 q1: 0.00 q2: 0.00 q3: -0.09 (angle_z: <Angle -0.18 radians (-10.58 degrees)>)> origin_id=53> is_visible=False>
+Cozmo's current pose: x=662.67, y=-246.48, rotation=13.12°
+Cozmo's current pose: x=690.73, y=-229.97, rotation=24.04°
+Cozmo's current pose: x=679.70, y=-256.35, rotation=-100.41°
+Cozmo's current pose: x=679.70, y=-256.35, rotation=-100.61°
+Cozmo's current pose: x=678.89, y=-260.85, rotation=-100.40°
+Cozmo's current pose: x=661.95, y=-358.81, rotation=-99.12°
+Cozmo's current pose: x=669.94, y=-316.70, rotation=-100.86°
+Returning to the starting position to deposit the cube...
+Retracing path: [(663.9785766601562, -254.61358642578125, -12.24017670464518), (663.9785766601562, -254.61358642578125, -12.24017670464518), (649.628173828125, -251.4698028564453, -11.926057040737053), (599.9251098632812, -240.77493286132812, -11.491124010770685), (550.3470458984375, -230.782958984375, -11.305936568895403), (500.8568420410156, -221.3002471923828, -10.346459022111766), (451.17095947265625, -212.21929931640625, -10.307876161597438), (401.55230712890625, -203.4023895263672, -9.819865733340624), (351.247802734375, -194.5484619140625, -9.098324367630047), (302.0351867675781, -188.20953369140625, -15.084774014927364), (253.35194396972656, -175.18109130859375, -14.68343925459951), (204.60890197753906, -162.39158630371094, -14.685131367214176), (155.63768005371094, -149.9646453857422, -13.619185746791722), (106.53186798095703, -137.84039306640625, -13.863248520548122), (57.45951843261719, -125.83511352539062, -13.632688382370286)]
+Precisely reached target at x=663.98, y=-254.61
+Retraced to x=663.98, y=-254.61, rotation=-12.24
+Precisely reached target at x=663.98, y=-254.61
+Retraced to x=663.98, y=-254.61, rotation=-12.24
+Precisely reached target at x=649.63, y=-251.47
+Retraced to x=649.63, y=-251.47, rotation=-11.93
+Cozmo's current pose: x=670.08, y=-317.64, rotation=133.83°
+Cozmo's current pose: x=643.18, y=-289.35, rotation=133.40°
+Precisely reached target at x=599.93, y=-240.77
+Retraced to x=599.93, y=-240.77, rotation=-11.49
+Cozmo's current pose: x=636.14, y=-281.74, rotation=150.19°
+Cozmo's current pose: x=614.37, y=-268.86, rotation=149.51°
+Precisely reached target at x=550.35, y=-230.78
+Retraced to x=550.35, y=-230.78, rotation=-11.31
+Cozmo's current pose: x=592.16, y=-255.89, rotation=149.65°
+Cozmo's current pose: x=574.69, y=-249.21, rotation=158.84°
+Cozmo's current pose: x=544.04, y=-237.28, rotation=158.61°
+Precisely reached target at x=500.86, y=-221.30
+Retraced to x=500.86, y=-221.30, rotation=-10.35
+Cozmo's current pose: x=526.90, y=-232.58, rotation=164.51°
+Cozmo's current pose: x=495.56, y=-223.74, rotation=164.13°
+Precisely reached target at x=451.17, y=-212.22
+Retraced to x=451.17, y=-212.22, rotation=-10.31
+Cozmo's current pose: x=479.23, y=-220.25, rotation=167.94°
+Cozmo's current pose: x=446.67, y=-213.21, rotation=167.59°
+Precisely reached target at x=401.55, y=-203.40
+Retraced to x=401.55, y=-203.40, rotation=-9.82
+Cozmo's current pose: x=411.99, y=-205.54, rotation=167.36°
+Precisely reached target at x=351.25, y=-194.55
+Retraced to x=351.25, y=-194.55, rotation=-9.10
+Cozmo's current pose: x=398.04, y=-202.36, rotation=172.26°
+Cozmo's current pose: x=362.04, y=-197.42, rotation=172.31°
+Precisely reached target at x=302.04, y=-188.21
+Retraced to x=302.04, y=-188.21, rotation=-15.08
+Cozmo's current pose: x=348.05, y=-195.52, rotation=168.00°
+Cozmo's current pose: x=315.44, y=-188.39, rotation=167.16°
+Precisely reached target at x=253.35, y=-175.18
+Retraced to x=253.35, y=-175.18, rotation=-14.68
+Cozmo's current pose: x=298.53, y=-184.59, rotation=167.50°
+Cozmo's current pose: x=249.80, y=-173.62, rotation=167.17°
+Precisely reached target at x=204.61, y=-162.39
+Retraced to x=204.61, y=-162.39, rotation=-14.69
+Cozmo's current pose: x=239.89, y=-171.35, rotation=167.13°
+Cozmo's current pose: x=200.23, y=-162.08, rotation=166.60°
+Precisely reached target at x=155.64, y=-149.96
+Retraced to x=155.64, y=-149.96, rotation=-13.62
+Cozmo's current pose: x=173.37, y=-155.67, rotation=166.55°
+Precisely reached target at x=106.53, y=-137.84
+Retraced to x=106.53, y=-137.84, rotation=-13.86
+Cozmo's current pose: x=151.29, y=-150.36, rotation=166.35°
+Cozmo's current pose: x=108.43, y=-139.94, rotation=166.30°
+Precisely reached target at x=57.46, y=-125.84
+Retraced to x=57.46, y=-125.84, rotation=-13.63
+Back at approximate starting position. Fine-tuning to exact (0, 0).
+Cozmo's current pose: x=101.78, y=-137.89, rotation=123.89°
+Cozmo's current pose: x=87.13, y=-117.68, rotation=125.93°
+Cozmo's current pose: x=70.68, y=-94.96, rotation=125.66°
+Cozmo's current pose: x=46.58, y=-61.28, rotation=125.55°
+Precisely reached target at x=0.00, y=0.00
+Precisely at starting position.
+Depositing the cube...
+2024-12-15 18:51:00,272 cozmo.general INFO     Sending place down here request for object=<LightCube object_id=6 battery=Unknown pose=<Pose <Position x: 654.01 y: -407.71 z: 21.01> <Quaternion q0: 1.00 q1: 0.00 q2: -0.00 q3: -0.09 (angle_z: <Angle -0.18 radians (-10.43 degrees)>)> origin_id=53> is_visible=False>
+Cozmo's current pose: x=41.18, y=-53.73, rotation=125.27°
+Cozmo's current pose: x=56.47, y=-75.33, rotation=115.95°
+Cube deposited.
+Cube picked up and deposited. Total completed: 2/3
+Target reached. Restarting search.
+Starting a 360-degree search...
+Cozmo's current pose: x=51.35, y=-79.53, rotation=135.96°
+Cozmo's current pose: x=46.37, y=-91.37, rotation=175.96°
+Cozmo's current pose: x=51.27, y=-103.63, rotation=-143.33°
+Cozmo's current pose: x=66.51, y=-111.57, rotation=-89.61°
+Cozmo's current pose: x=79.08, y=-104.72, rotation=-45.83°
+Cozmo's current pose: x=84.43, y=-94.21, rotation=-8.16°
+Cozmo's current pose: x=80.56, y=-84.64, rotation=23.69°
+Cozmo's current pose: x=73.18, y=-75.93, rotation=58.40°
+Cozmo's current pose: x=60.26, y=-74.30, rotation=98.42°
+Target object (wall): id=4, x=478.23, y=-491.07
+Moving towards object at x=478.23, y=-491.07
+Current position: x=53.96, y=-76.48
+Distance to target: 593.19 mm
+Angle to target: -162.79°
+Turning -162.79° to face the target...
+Cozmo's current pose: x=77.86, y=-107.82, rotation=-45.66°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=105.00, y=-136.13, rotation=-46.26°
+Current position: x=112.77, y=-144.15
+Distance to target: 503.89 mm
+Angle to target: 2.67°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=115.03, y=-146.50, rotation=-46.13°
+Cozmo's current pose: x=147.30, y=-180.85, rotation=-47.08°
+Current position: x=147.30, y=-180.85
+Distance to target: 453.60 mm
+Angle to target: 3.98°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=159.37, y=-193.96, rotation=-47.30°
+Cozmo's current pose: x=181.63, y=-217.91, rotation=-47.20°
+Current position: x=181.63, y=-217.91
+Distance to target: 403.22 mm
+Angle to target: 4.55°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=206.73, y=-245.72, rotation=-48.17°
+Current position: x=215.64, y=-255.60
+Distance to target: 352.70 mm
+Angle to target: 6.12°
+Turning 6.12° to face the target...
+Cozmo's current pose: x=216.28, y=-254.38, rotation=-43.64°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=239.83, y=-274.86, rotation=-41.82°
+Current position: x=254.51, y=-287.71
+Distance to target: 302.33 mm
+Angle to target: -0.79°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=254.51, y=-287.71, rotation=-41.48°
+Cozmo's current pose: x=291.30, y=-320.95, rotation=-41.98°
+Current position: x=292.33, y=-321.85
+Distance to target: 251.37 mm
+Angle to target: -0.34°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=300.59, y=-329.29, rotation=-41.97°
+Cozmo's current pose: x=329.65, y=-355.62, rotation=-42.45°
+Current position: x=329.65, y=-355.62
+Distance to target: 201.05 mm
+Angle to target: 0.10°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=353.61, y=-377.69, rotation=-42.56°
+Current position: x=366.88, y=-389.78
+Distance to target: 150.53 mm
+Angle to target: 0.18°
+Driving forward by 50.00 mm
+Cozmo's current pose: x=366.88, y=-389.78, rotation=-42.47°
+Cozmo's current pose: x=403.96, y=-424.26, rotation=-43.09°
+Current position: x=403.96, y=-424.26
+Distance to target: 99.89 mm
+Angle to target: 1.16°
+Reached target within safe distance.
+Target reached. Restarting search.
+Starting a 360-degree search...
+Cozmo's current pose: x=407.25, y=-418.53, rotation=-22.99°
+Cozmo's current pose: x=408.24, y=-405.73, rotation=16.86°
+Cozmo's current pose: x=399.80, y=-395.54, rotation=57.87°
+Cozmo's current pose: x=387.16, y=-393.29, rotation=97.93°
+Cozmo's current pose: x=375.62, y=-399.05, rotation=138.92°
+Cozmo's current pose: x=372.67, y=-411.81, rotation=-179.77°
+Cozmo's current pose: x=377.52, y=-424.16, rotation=-139.27°
+Cozmo's current pose: x=388.70, y=-430.74, rotation=-98.18°
+Cozmo's current pose: x=401.41, y=-426.93, rotation=-57.39°
+Target object (cube): id=7, x=477.63, y=-93.14
+Picking up the cube...
+2024-12-15 18:52:12,424 cozmo.general INFO     Sending pickup object request for object=<LightCube object_id=7 battery=Unknown pose=<Pose <Position x: 477.63 y: -93.14 z: 6.30> <Quaternion q0: 0.77 q1: -0.03 q2: 0.04 q3: 0.63 (angle_z: <Angle 1.37 radians (78.62 degrees)>)> origin_id=53> is_visible=False>
+Cozmo's current pose: x=409.92, y=-407.80, rotation=6.38°
+Cozmo's current pose: x=434.17, y=-316.42, rotation=86.19°
+Cozmo's current pose: x=445.06, y=-245.43, rotation=76.32°
+Cozmo's current pose: x=446.38, y=-244.41, rotation=72.66°
+Cozmo's current pose: x=446.38, y=-244.41, rotation=72.44°
+Cozmo's current pose: x=467.42, y=-180.26, rotation=72.40°
+Cozmo's current pose: x=471.14, y=-133.11, rotation=100.42°
+Cozmo's current pose: x=474.92, y=-81.14, rotation=85.88°
+Cozmo's current pose: x=472.97, y=-122.83, rotation=88.48°
+Returning to the starting position to deposit the cube...
+Retracing path: [(403.9649353027344, -424.2628173828125, -43.13472880834336), (403.9649353027344, -424.2628173828125, -43.1359696509971), (366.87542724609375, -389.7789001464844, -42.465890349028655), (329.6524963378906, -355.6177062988281, -42.45306359427145), (292.33258056640625, -321.854248046875, -41.97365311551591), (254.50926208496094, -287.7056579589844, -41.480332136057044), (215.63682556152344, -255.6022491455078, -48.00232924622893), (181.6268768310547, -217.90769958496094, -47.19437461084392), (147.2975616455078, -180.84579467773438, -47.13060728086318), (112.76908874511719, -144.15090942382812, -46.1806237956829)]
+Cozmo's current pose: x=473.13, y=-123.22, rotation=-131.02°
+Cozmo's current pose: x=468.04, y=-144.00, rotation=-103.91°
+Cozmo's current pose: x=461.23, y=-170.89, rotation=-104.30°
+Cozmo's current pose: x=451.85, y=-207.61, rotation=-104.42°
+Cozmo's current pose: x=448.89, y=-219.16, rotation=-104.19°
+Cozmo's current pose: x=444.97, y=-237.32, rotation=-102.16°
+Cozmo's current pose: x=438.39, y=-268.25, rotation=-102.21°
+Cozmo's current pose: x=430.98, y=-302.40, rotation=-102.28°
+Cozmo's current pose: x=427.69, y=-317.42, rotation=-102.42°
+Cozmo's current pose: x=416.83, y=-366.75, rotation=-102.37°
+Precisely reached target at x=403.96, y=-424.26
+Retraced to x=403.96, y=-424.26, rotation=-43.13
+Precisely reached target at x=403.96, y=-424.26
+Retraced to x=403.96, y=-424.26, rotation=-43.14
+Precisely reached target at x=366.88, y=-389.78
+Retraced to x=366.88, y=-389.78, rotation=-42.47
+Cozmo's current pose: x=416.56, y=-366.80, rotation=170.94°
+Cozmo's current pose: x=384.57, y=-363.07, rotation=173.27°
+Precisely reached target at x=329.65, y=-355.62
+Retraced to x=329.65, y=-355.62, rotation=-42.45
+Cozmo's current pose: x=367.01, y=-361.01, rotation=173.25°
+Cozmo's current pose: x=348.60, y=-351.66, rotation=152.95°
+Precisely reached target at x=292.33, y=-321.85
+Retraced to x=292.33, y=-321.85, rotation=-41.97
+Cozmo's current pose: x=321.74, y=-337.97, rotation=152.83°
+Cozmo's current pose: x=309.68, y=-328.98, rotation=143.32°
+Cozmo's current pose: x=280.92, y=-307.67, rotation=143.60°
+Precisely reached target at x=254.51, y=-287.71
+Retraced to x=254.51, y=-287.71, rotation=-41.48
+Cozmo's current pose: x=279.09, y=-306.26, rotation=142.64°
+Cozmo's current pose: x=240.66, y=-276.74, rotation=142.18°
+Precisely reached target at x=215.64, y=-255.60
+Retraced to x=215.64, y=-255.60, rotation=-48.00
+Cozmo's current pose: x=240.58, y=-276.64, rotation=134.96°
+Cozmo's current pose: x=205.25, y=-240.88, rotation=134.20°
+Precisely reached target at x=181.63, y=-217.91
+Retraced to x=181.63, y=-217.91, rotation=-47.19
+Cozmo's current pose: x=196.74, y=-232.10, rotation=134.08°
+Cozmo's current pose: x=170.25, y=-204.55, rotation=133.80°
+Precisely reached target at x=147.30, y=-180.85
+Retraced to x=147.30, y=-180.85, rotation=-47.13
+Cozmo's current pose: x=149.67, y=-183.03, rotation=133.72°
+Precisely reached target at x=112.77, y=-144.15
+Retraced to x=112.77, y=-144.15, rotation=-46.18
+Back at approximate starting position. Fine-tuning to exact (0, 0).
+Cozmo's current pose: x=135.25, y=-167.94, rotation=133.57°
+Cozmo's current pose: x=115.83, y=-143.66, rotation=128.69°
+Cozmo's current pose: x=103.60, y=-128.32, rotation=128.30°
+Cozmo's current pose: x=72.33, y=-88.56, rotation=128.19°
+Cozmo's current pose: x=62.14, y=-75.53, rotation=128.04°
+Cozmo's current pose: x=41.30, y=-48.85, rotation=128.04°
+Precisely reached target at x=0.00, y=0.00
+Precisely at starting position.
+Depositing the cube...
+2024-12-15 18:53:29,446 cozmo.general INFO     Sending place down here request for object=<LightCube object_id=7 battery=Unknown pose=<Pose <Position x: 483.34 y: -72.32 z: 18.69> <Quaternion q0: 0.87 q1: 0.00 q2: -0.00 q3: 0.50 (angle_z: <Angle 1.05 radians (59.93 degrees)>)> origin_id=53> is_visible=False>
+Cozmo's current pose: x=57.64, y=-69.67, rotation=128.94°
+Cube deposited.
+Cube picked up and deposited. Total completed: 3/3
+Target reached. Restarting search.
+All cubes have been picked up and deposited. Stopping the program.
+
